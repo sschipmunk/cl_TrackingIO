@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "huangwenchang" => "huangwenchang@chelun.com" }
+  s.author             = { "Leslie Zhang" => "sschipmunks@gmail.com" }
 
   s.platform     = :ios
 
   s.ios.deployment_target = "8.0"
   
-  s.source        = { :git => "https://github.com/Jeffrey-huang/cl_TrackingIO.git", :tag => s.version }
+  s.source        = { :git => "https://github.com/sschipmunk/cl_TrackingIO.git", :tag => s.version }
 
   s.source_files  = 'Tracking/*.h'
 
